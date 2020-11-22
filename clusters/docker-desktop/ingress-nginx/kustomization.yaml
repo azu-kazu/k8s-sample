@@ -1,0 +1,2 @@
+resources:
+  - deploy.yaml # copied from https://github.com/kubernetes/ingress-nginx/blob/ingress-nginx-3.11.0/deploy/static/provider/cloud/deploy.yaml
