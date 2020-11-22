@@ -1,0 +1,12 @@
+apiVersion: skaffold/v1beta15
+kind: Config
+build:
+  tagPolicy:
+    sha256: {}
+  artifacts:
+    - image: kotlin-app
+      context: ../kotlin-app
+      jib: {}
+deploy:
+  kustomize:
+    path: ./clusters/docker-desktop

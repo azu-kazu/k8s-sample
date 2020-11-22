@@ -1,0 +1,15 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: ingress
+  labels:
+    app: kotlin-app
+spec:
+  rules:
+  - host: kotlin-app.jp
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: kotlin-app
+          servicePort: 80
