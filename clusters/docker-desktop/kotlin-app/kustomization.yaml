@@ -1,9 +1,0 @@
-resources:
-  - ../../../manifests/kotlin-app
-  - ingress.yaml
-  - namespace.yaml
-
-patchesStrategicMerge:
-  - deployment.yaml
-
-namespace: kotlin-app
