@@ -1,0 +1,6 @@
+resources:
+  - ../../../../manifests/kotlin-app
+  - ingress.yaml
+
+patchesStrategicMerge:
+  - deployment.yaml

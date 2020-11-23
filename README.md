@@ -1,4 +1,4 @@
-# k8s-sample
+# kotlin-app-k8s
 
 Ingressリソースで定義したhostを`/etc/hosts`に設定すること。  
 
